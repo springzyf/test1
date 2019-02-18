@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../comfile/comfile.iml" filepath="$PROJECT_DIR$/../comfile/comfile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webskt/webskt.iml" filepath="$PROJECT_DIR$/webskt/webskt.iml" />
+    </modules>
+  </component>
+</project>

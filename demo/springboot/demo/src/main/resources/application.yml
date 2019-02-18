@@ -1,0 +1,26 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    name: mysqltest
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      filter: stat
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/boottest?useUnicode=true&characterEncoding=utf-8
+      username: root
+      password:
+  thymeleaf:
+    cache: false
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.runa.demo.pojo
+logging:
+  level:
+    com.runa.demo.dao: debug
+  file: spring.log
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: ture
+  params: conut=conutSql
